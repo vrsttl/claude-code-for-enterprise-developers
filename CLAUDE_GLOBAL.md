@@ -27,9 +27,9 @@ Claude Code configuration for `~/.claude/`.
 
 **Main thread coordinates, never implements.** Delegate via Agent tool.
 
-## Agents (6 total)
+## Agents (7 total)
 
-**Core:** frontend-engineer, staff-php-developer, code-reviewer
+**Core:** frontend-engineer, staff-php-developer, code-reviewer, devops-engineer
 
 **Utilities:** jira-utility, web-researcher, agent-creator
 
@@ -37,7 +37,7 @@ Claude Code configuration for `~/.claude/`.
 
 ## Model Tiers
 
-- **Opus:** frontend-engineer, staff-php-developer, code-reviewer
+- **Opus:** frontend-engineer, staff-php-developer, code-reviewer, devops-engineer
 - **Sonnet:** web-researcher, agent-creator (default)
 - **Haiku:** jira-utility
 

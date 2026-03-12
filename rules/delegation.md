@@ -17,6 +17,7 @@
 | JIRA ticket ID (XXX-###) | Jira | jira-utility |
 | Research/documentation | Web | web-researcher |
 | Code review/quality | Review | code-reviewer |
+| CI/CD/Docker/K8s/Terraform/shell/git | DevOps/Infra | devops-engineer |
 
 ## Mandatory Delegation Rules
 
