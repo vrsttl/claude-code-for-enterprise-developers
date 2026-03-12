@@ -19,7 +19,7 @@ cd ~/claude-code-enterprise
 ```
 
 This syncs to `~/.claude/`:
-- **6 agents** (frontend-engineer, staff-php-developer, code-reviewer, jira-utility, web-researcher, agent-creator)
+- **7 agents** (frontend-engineer, staff-php-developer, code-reviewer, devops-engineer, jira-utility, web-researcher, agent-creator)
 - **4 rule files** (delegation, code-quality, context-management, mcp-usage)
 - **3 hooks** (enforce delegation, agent validation, agent cleanup)
 - **4 skills** (/commit, /review-pr, /tdd, /create-agent)
@@ -36,6 +36,7 @@ Specialist workers that Claude delegates to. Main thread reads code, agents writ
 | frontend-engineer | Opus | React, TypeScript, Next.js |
 | staff-php-developer | Opus | PHP, Symfony, Laravel |
 | code-reviewer | Opus | Code quality, security audits |
+| devops-engineer | Opus | CI/CD, Docker/K8s, IaC, shell/git |
 | jira-utility | Haiku | Jira ticket operations |
 | web-researcher | Sonnet | Web research, documentation |
 | agent-creator | Sonnet | Create new agents following established patterns |
