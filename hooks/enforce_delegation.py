@@ -33,7 +33,7 @@ import sys
 # an error message suggesting which agent should handle the work instead.
 BLOCKED = {
     # Shell commands should be delegated to a DevOps specialist
-    "Bash": "devops-engineer (not included in starter kit - add your own)",
+    "Bash": "devops-engineer",
     # File editing tools should be delegated to the appropriate code specialist
     "Edit": "frontend-engineer or staff-php-developer",
     "Write": "frontend-engineer or staff-php-developer",
@@ -41,7 +41,7 @@ BLOCKED = {
     # Notebook editing should be delegated to a data specialist
     "NotebookEdit": "data-scientist (not included in starter kit)",
     # Serena MCP mutation tools - same delegation rules apply
-    "mcp__plugin_serena_serena__execute_shell_command": "devops-engineer (not included in starter kit - add your own)",
+    "mcp__plugin_serena_serena__execute_shell_command": "devops-engineer",
     "mcp__plugin_serena_serena__replace_content": "frontend-engineer or staff-php-developer",
     "mcp__plugin_serena_serena__replace_symbol_body": "frontend-engineer or staff-php-developer",
     "mcp__plugin_serena_serena__insert_after_symbol": "frontend-engineer or staff-php-developer",
